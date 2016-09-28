@@ -1,0 +1,49 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.title {
+  font-family: Verdana, sans-serif;
+  text-align: center;
+}
+
+.card-item {
+  position: relative;
+  display: inline-block;
+  vertical-align: top;
+  width: 200px;
+  border: 1rem solid transparent;
+  padding: 2rem 1rem;
+  background-color: rgba(150, 200, 100, 0.4);
+  background-clip: padding-box;
+  border-radius: 25px;
+  font-family: Verdana, sans-serif;
+}
+
+.card-item__header {
+  margin-bottom: 1rem;
+  font-size: 2rem;
+  line-height: 1.2;
+}
+
+.card-item__description {
+  margin-bottom: 2rem;
+  padding: 1rem;
+  background-color: #fff;
+}
+
+.card-item__link {
+  float: left;
+}
+
+.card-item__stats {
+  float: right;
+}
+
+.card-item__delete {
+  position: absolute;
+  top: 1rem;
+  right: 1rem;
+  background-color: rgba(150, 200, 100, 0.3);
+}
